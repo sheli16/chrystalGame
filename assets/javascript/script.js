@@ -1,28 +1,27 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
     console.log("ready!");
-
+});
 //function computernumber = Math.floor((Math.random() * 100) + 19;
 
-  function computernumber(result) {
+  function computernumber() {
     var min = 15;
     var max= 10;
     var randomNumber = Math.floor(Math.random()*(max-min+1)+min);
     console.log(randomNumber)
+    $('.computerNumber').html('<h5>randomNumber</h5>');
 };
 
 
  
-  function chrystalNumbers(result) {
+  function chrystalNumbers() {
     var min = 1;
     var max= 5;
     var randChrystal= Math.floor(Math.random()*(max-min+1)+min);
     console.log(randChrystal)
   };
 
-function flipThatCoin(result) {
-  var randomNumber = Math.floor(Math.random() * 2);
-
+function addingChrystals(result) {
   if (randomNumber === 0) {
     $('#coin-image').html('<img src="http://random-ize.com/coin-flip/us-quarter/us-quarter-front.jpg" />');
   } else {
