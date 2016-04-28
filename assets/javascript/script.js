@@ -1,13 +1,23 @@
-
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
 
 //function computernumber = Math.floor((Math.random() * 100) + 19;
-
-computerNumber: function(){
-    var min = 10;
-    var max= 5;
+var computernumber: function(){
+    var min = 15;
+    var max= 10;
     var randomNumber = Math.floor(Math.random()*(max-min+1)+min;
     console.log(randomNumber)
-  });
+ // });
+
+
+ var chrystalNumbers:function(){
+    var min = 1;
+    var max= 5;
+    var randChrystal= Math.floor(Math.random()*(max-min+1)+min;
+    console.log(randChrystal)
+  };
+
 
 var chrystalCount = 0;
 var wins = 0;
@@ -17,8 +27,9 @@ $('#chrystals').on('click', function() {
   chrystalCount++;
   $('#yourNumber').html(chrystalCount);
 
-  $('#yourNumber').html('<H5>Heads</h5>');
-  flipThatCoin(0);
+  $('#yourNumber').html('<h5>Tails</h5>');
+  chrystalCount(1);
+
 });
 
 
@@ -30,11 +41,11 @@ $('#tails').on('click', function() {
   flipThatCoin(1);
 });
 
-function flipThatCoin(result) {
-  var randomNumber = Math.floor(Math.random() * 2);
+//function flipThatCoin(result) {
+  //var randomNumber = Math.floor(Math.random() * 2);
 
-  if (randomNumber === 0) {
-    $('#coin-image').html('<img src="http://random-ize.com/coin-flip/us-quarter/us-quarter-front.jpg" />');
+  if (computernumber.randomNumber === 0) {
+    $('#score').html('wins'+);
   } else {
     $('#coin-image').html('<img src="http://random-ize.com/coin-flip/us-quarter/us-quarter-back.jpg" />');
   }
