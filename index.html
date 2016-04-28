@@ -1,39 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Disco Guessing Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/trystyle.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
     
-    <script src="assets/javascript/tryagain.js"></script>
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #D5F5E3;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
 </head>
-<body>
+<body background="assets/images/backgroundchrystals.jpg">
 
-<p>Lets begin</p>
+<nav class="navbar navbar-inverse visible-xs">
+ </nav>
 
-<div class="wrapper">
-   <h1>Hangman</h1>
-    <h2>Vanilla JavaScript Hangman Game</h2>
-    <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
-</div>
-<div class="wrapper">
-    <div id="buttons">
-    </div>  
-    <p id="catagoryName"></p>
-    <div id="hold">
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+      <h2>Chrystal Guessing</h2>
+      <p> Here is your chance to match the guess of the computer.<br>
+      Try your skills use your smarts to make it happen. The computer will provide you with a numberand you have to use the numbers under hte chrystals to add up to the number shown </p>
     </div>
-    <p id="mylives"></p>
-    <p id="clue">Clue-</p>  
-     <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
-    <div class="container">
-      <button id="hint">Hint</button>
-      <button id="reset">Play again</button>
+    <br>
+    
+    <div class="col-sm-9">
+      <div class="well">
+        <h1>Chrystal Guessing Game</h1>
+        <p> Here is your chance to match the guess of the computer.
+      Try your skills use your smarts to make it happen. The computer will provide you with a numberand you have to use the numbers under hte chrystals to add up to the number shown </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+         
+          
+            <h4>chrystal 1</h4>
+            <button id="chrystals"><img src="assets/images/purp_gem.png"></button>
+          
+        </div>
+        <div class="col-sm-3">
+          
+            <h4>chrystal 2</h4>
+            <button id="chrystals"><img src="assets/images/pinkgem.png"></button>
+            <p></p> 
+          
+        </div>
+        <div class="col-sm-3">
+            <h4>chrystal 3</h4>
+            <button id="chrystals"><img src="assets/images/bluegem.png"></button>
+            <p></p> 
+         
+        </div>
+        <div class="col-sm-3">
+          <h4>chrystal 4</h4>
+          <button id="chrystals"><img src="assets/images/yellowgem.png"></button>
+            <p></p> 
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+            <p>Text</p> 
+            <p>Text</p> 
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+            <p>Text</p> 
+            <p>Text</p> 
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+            <p>Text</p> 
+            <p>Text</p> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="well">
+            <p>Text</p> 
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
-
-
 
 </body>
 </html>
-
