@@ -3,6 +3,14 @@ $( document ).ready(function() {
     console.log("ready!");
 });
 //function computernumber = Math.floor((Math.random() * 100) + 19;
+    var randChrystal1 = ();
+    var randChrystal2 =();
+    var randChrystal3 = ();
+    var randChrystal4 = ();
+    var totalChrystals = ();
+
+
+
 
   function computernumber() {
     var min = 15;
@@ -12,16 +20,90 @@ $( document ).ready(function() {
     $('.computerNumber').html('<h5>randomNumber</h5>');
 };
 
-
- 
   function chrystalNumbers() {
     var min = 1;
-    var max= 5;
-    var randChrystal= Math.floor(Math.random()*(max-min+1)+min);
-    console.log(randChrystal)
+    var max= 5;    
+    randCrystal1= Math.floor(Math.random()*(max-min+1)+min);
+    randCrystal2= Math.floor(Math.random()*(max-min+1)+min);
+    randCrystal3= Math.floor(Math.random()*(max-min+1)+min);
+    randCrystal4= Math.floor(Math.random()*(max-min+1)+min);
+    console.log(randChrystal1)
   };
 
-function addingChrystals(result) {
+function addingCrystals(result) {
+  var totalCrystals = ()
+  //adding to total crystals
+  $(".number").on("click", function(){
+    //diplay in Totalcrystals in html 
+
+function addingCrystals(result) {
+  var totalCrystals = ()
+  $(".number").on("click", function(){
+
+function addingCrystals(result) {
+  var totalCrystals = ()
+  $(".number").on("click", function(){
+
+function addingCrystals(result) {
+  var totalCrystals = ()
+  $(".number").on("click", function(){
+
+
+
+
+
+
+
+$(".number").on("click", function(){
+  if ( ) {
+    $("#firstNumber").append(this.value);
+    firstNumber += this.value;
+    firstNumber = parseInt(firstNumber);
+    console.log(firstNumber);
+  } else {
+    $("#secondNumber").append(this.value);
+    secondNumber += this.value;
+    secondNumber = parseInt(secondNumber);
+    console.log(secondNumber);
+  }
+});
+var chrystalCount = 0;
+var wins = 0;
+var losses = 0;
+
+$('#crystals1').on('click', function() {
+  crystalCount++;
+  $('#yourNumber').html(crystalCount);
+crystalCount(1);
+});
+
+$('#crystals2').on('click', function() {
+  crystalCount++;
+  $('#yourNumber').html(crystalCount);
+crystalCount(1);
+
+$('#crystals3').on('click', function() {
+  crystalCount++;
+  $('#yourNumber').html(chrystalCount);
+crystalCount(1);
+
+$('#chrystals4').on('click', function() {
+  crystalCount++;
+  $('#yourNumber').html(crystalCount);
+crystalCount(1);
+
+
+
+
+
+
+
+
+
+
+
+
+
   if (randomNumber === 0) {
     $('#coin-image').html('<img src="http://random-ize.com/coin-flip/us-quarter/us-quarter-front.jpg" />');
   } else {
@@ -51,18 +133,6 @@ function addingChrystals(result) {
 
 
 
-var chrystalCount = 0;
-var wins = 0;
-var losses = 0;
-
-$('#chrystals').on('click', function() {
-  chrystalCount++;
-  $('#yourNumber').html(chrystalCount);
-
-  $('#yourNumber').html('<h5>Tails</h5>');
-  chrystalCount(1);
-
-});
 
 
 $('#tails').on('click', function() {
