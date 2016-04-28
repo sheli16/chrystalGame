@@ -1,24 +1,51 @@
+#container-fluid{
+         align-content: center;
+     text-align: center;
+
+    
+    
+}
+
+#row-content {
+}
+
+h1 {
+    font-size:30pt;
+}
+h4 {
+    font-size:17pt;
+    color: GoldenRod;
+}
+h5 {
+    font-size:30pt;
+    text-align: center;
+    margin:20px;
+}
+
 body {
+    width: 100%;
+    text-align: center;
+    margin: 80px 10px 0px 100px;
+    padding: 10;
     font-family:sans-serif; 
     font-weight:bold; 
-    font-size:16pt;
+    font-size:10pt;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
  
 }
+
 /* Topmatter */
 
 #chrystals img {
     display: block;
     height: 130px;  
     width: 100px;
-    background-color: #1B2631
+    
 }
 
-#chrystals img {
-    display: block;
-    height: 130px;  
-    width: 100px;
-    background-color: #1B2631
-}
 
 
 
@@ -31,7 +58,8 @@ button{
 /* For the left 'Guess A Letter!' and 'Guessed Letter' boxes. */
 .col-sm-3 {
      text-align:center;
-}
+     float:left;
+ }
 
 .col-sm-9 {
     font-family: 'Audiowide', cursive;
@@ -41,7 +69,16 @@ button{
 .col-sm-9 {
     font-family: 'Audiowide', cursive;
      text-align:center;
+ }
 
+.col-sm-4 {
+    font-family: 'Audiowide', cursive;
+     text-align:center;
+     padding-top: 10px;
+
+}
+.well {
+    background-color: #483d8b;
 
 
 
