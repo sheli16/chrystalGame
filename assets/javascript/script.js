@@ -1,22 +1,22 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
-    console.log( "ready!" );
+    console.log("ready!");
 
 //function computernumber = Math.floor((Math.random() * 100) + 19;
 
   function computernumber(result) {
     var min = 15;
     var max= 10;
-    var randomNumber = Math.floor(Math.random()*(max-min+1)+min;
+    var randomNumber = Math.floor(Math.random()*(max-min+1)+min);
     console.log(randomNumber)
- // });
+};
 
 
  
   function chrystalNumbers(result) {
     var min = 1;
     var max= 5;
-    var randChrystal= Math.floor(Math.random()*(max-min+1)+min;
+    var randChrystal= Math.floor(Math.random()*(max-min+1)+min);
     console.log(randChrystal)
   };
 
