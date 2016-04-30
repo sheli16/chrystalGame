@@ -28,9 +28,9 @@ $(document).ready(function() {
 
 function crystalNumbers() {
     var min = 1;
-    var max= 5;    
-     var min1 = 15;
-    var max1= 10;
+    var max= 12;    
+     var min1 = 19;
+    var max1= 120;
     randomNumber= Math.floor(Math.random()*(max1-min1+1)+min1);
     console.log(randomNumber);
     $('#computerNumber').html('<h5>'+ randomNumber +'</h5>');
