@@ -4,7 +4,7 @@ $(document).ready(function() {
     console.log("ready!");
    // computernumber();
    // crystalNumbers();
- 
+
 
 //function computernumber = Math.floor((Math.random() * 100) + 19;
     var randCrystal1 = 0;
@@ -49,18 +49,19 @@ function winslosses (){
 console.log(totalCrystals);
 console.log(randomNumber);
 if (totalCrystals === randomNumber){
- 
   wins++;
   console.log(wins) 
-$('#score').html('wins ','<h6>'+ wins +'</h6>');
+$('#W').html('Total wins '+'<h6>'+ wins +'</h6>');
+ 
 }
 else
+ 
  if (totalCrystals > randomNumber){
   losses++;
-    $('#score').html('losses '+'<h7>'+ losses +'</h7>');
+    $('#L').html('Total losses  '+'<h6>'+ losses +'</h6>');
     }
  }
-crystalNumbers()
+
 
  console.log("ready2");
 
@@ -78,8 +79,7 @@ $('#yourNumber').html('<h5>'+ totalCrystals +'</h5>');
 
 $('#crystalspink').on('click', function() {
   if (clickCounter++ === 0) {crystalNumbers()};
- 
-  totalCrystals = totalCrystals + randCrystal2;
+ totalCrystals = totalCrystals + randCrystal2;
 $('#yourNumber').html('<h5>'+ totalCrystals +'</h5>');
    console.log(totalCrystals);
    console.log(randCrystal1);
@@ -88,8 +88,7 @@ $('#yourNumber').html('<h5>'+ totalCrystals +'</h5>');
 
 $('#crystalsblue').on('click', function() {
   if (clickCounter++ === 0) {crystalNumbers()};
- 
-  totalCrystals = totalCrystals + randCrystal3;
+ totalCrystals = totalCrystals + randCrystal3;
 $('#yourNumber').html('<h5>'+ totalCrystals +'</h5>');
    console.log(totalCrystals);
    console.log(randCrystal1);
@@ -98,8 +97,7 @@ $('#yourNumber').html('<h5>'+ totalCrystals +'</h5>');
 
    $('#crystalsyellow').on('click', function() {
   if (clickCounter++ === 0) {crystalNumbers()};
- 
-  totalCrystals = totalCrystals + randCrystal4;
+ totalCrystals = totalCrystals + randCrystal4;
 $('#yourNumber').html('<h5>'+ totalCrystals +'</h5>');
    console.log(totalCrystals);
    console.log(randCrystal1);
