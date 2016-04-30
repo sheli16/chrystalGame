@@ -56,9 +56,11 @@ $('#W').html('Total wins '+'<h6>'+ wins +'</h6>');
 }
 else
  
- if (totalCrystals > randomNumber){
+ if
+  (totalCrystals + 1 > randomNumber){
   losses++;
     $('#L').html('Total losses  '+'<h6>'+ losses +'</h6>');
+   
     }
  }
 
