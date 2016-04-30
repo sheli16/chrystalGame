@@ -39,14 +39,28 @@ body {
 
 /* Topmatter */
 
-#crystals img {
+#crystalspink img {
     display: block;
     height: 130px;  
     width: 100px;
     
 }
-
-
+#crystalsblue img {
+    display: block;
+    height: 130px;  
+    width: 100px;
+    }
+#crystalspurple img {
+    display: block;
+    height: 130px;  
+    width: 100px;
+    }
+#crystalsyellow img {
+    display: block;
+    height: 130px;  
+    width: 100px;
+    
+}
 
 
 

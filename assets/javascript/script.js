@@ -1,7 +1,7 @@
 // A $( document ).ready() block.
-$( document ).ready(function() {
+$(document).ready(function() {
     console.log("ready!");
-});
+
 //function computernumber = Math.floor((Math.random() * 100) + 19;
     var randChrystal1 = ();
     var randChrystal2 =();
@@ -26,6 +26,14 @@ $( document ).ready(function() {
     randCrystal3= Math.floor(Math.random()*(max-min+1)+min);
     randCrystal4= Math.floor(Math.random()*(max-min+1)+min);
     console.log(randChrystal1)
+
+
+
+//on click of crystal1 add to the uer total number in total crystal
+
+$("li").on("click", function(){
+
+} 
   };
 
 function addingCrystals(result) {
@@ -44,11 +52,11 @@ function addingCrystals(result) {
 
 function addingCrystals(result) {
   var totalCrystals = ()
-  $(".number").on("click", function(){
+  $(".number").on("click", function()
 
 
 
-
+});
 
 
 
